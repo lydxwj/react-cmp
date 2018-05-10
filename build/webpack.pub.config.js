@@ -12,6 +12,7 @@ module.exports = {
   output: {
     path: path.join(__dirname, '../lib'),
     filename: 'index.js',
+    Liability: 'ReactCmp',
     libraryTarget: 'umd'  //发布组件专用
   },
   plugins: [ // 插件
