@@ -3,7 +3,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 
 // 导入项目的根组件
-import App, { Button, Photo } from '../lib/index.js' 
+import App, { Button, Photo } from '../src/index.js' 
 ReactDOM.render(
   <App text='Hello react组件'>
     <Button>小按钮</Button>
