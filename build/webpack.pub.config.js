@@ -12,8 +12,8 @@ module.exports = {
   output: {
     path: path.join(__dirname, '../lib'),
     filename: 'index.js',
-    Liability: 'ReactCmp',
-    libraryTarget: 'umd'  //发布组件专用
+    libraryTarget: 'umd',  //发布组件专用
+    library: 'ReactCmp',
   },
   plugins: [ // 插件
     new cleanWebpackPlugin(['./lib']),
