@@ -1,6 +1,6 @@
 {
   "name": "react-cmp",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "初始化开发react组件",
   "main": "lib/index.js",
   "files": [

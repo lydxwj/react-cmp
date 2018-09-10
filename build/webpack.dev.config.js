@@ -3,6 +3,7 @@ const htmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
   entry: path.join(__dirname, '../example/main.js'),
+  devtool: 'cheap-module-eval-source-map',
   output: {
     path: path.join(__dirname, '../dist'),
     filename: 'bundle.js'
