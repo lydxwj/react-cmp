@@ -36,9 +36,9 @@ module.exports = {
         })
       },
       {
-        test: /\.scss$/, use: ExtractTextPlugin.extract({
+        test: /\.styl$/, use: ExtractTextPlugin.extract({
           fallback: 'style-loader',
-          use: ['css-loader', 'sass-loader'],
+          use: ['css-loader', 'stylus-loader'],
           publicPath: '../' // 指定抽取的时候，自动为我们的路径加上 ../ 前缀
         })
       },
