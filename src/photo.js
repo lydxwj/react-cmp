@@ -1,15 +1,12 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+
 export default class Avatar extends Component {
-  constructor(props) {
-    super(props)
-  }
   static propTypes = {
     /**
      * @title 头像地址
      */
     src: PropTypes.string,
-
     /**
      * @title 头像大小
      * @description 数字值
@@ -21,6 +18,7 @@ export default class Avatar extends Component {
     width: 50,
     height: 50,
   };
+
   render() {
     const style = {
       width: this.props.width,
@@ -28,7 +26,7 @@ export default class Avatar extends Component {
     };
     return (
       <div>
-        { this.props.src ? <img className="photo" src={this.props.src} style={style}/> : '没有photo' }
+        { this.props.src ? <img className="photo" src={this.props.src} style={style} /> : '没有photo' }
       </div>
     );
   }

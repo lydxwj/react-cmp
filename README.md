@@ -4,6 +4,12 @@
 
 - 使用
 
+  #### 下载仓库
+
+  ```
+  https://github.com/lydxwj/react-cmp/archive/master.zip
+  ```
+
   #### 安装依赖
 
   - ```

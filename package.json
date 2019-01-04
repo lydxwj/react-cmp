@@ -1,6 +1,6 @@
 {
   "name": "react-cmp",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "初始化开发react组件",
   "main": "lib/index.js",
   "files": [
@@ -15,10 +15,10 @@
   },
   "homepage": "https://github.com/lydxwj/react-cmp",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run dev",
     "dev": "webpack-dev-server --config ./build/webpack.dev.config.js --open --port 3000 --hot",
     "pub": "webpack --config ./build/webpack.pub.config.js",
-    "prepublish": "npm run pub"
+    "prepare": "npm run pub"
   },
   "keywords": [
     "react",
@@ -34,6 +34,7 @@
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
+    "babel-eslint": "^10.0.1",
     "babel-loader": "^7.1.2",
     "babel-plugin-import": "^1.6.2",
     "babel-plugin-transform-runtime": "^6.23.0",
@@ -42,6 +43,11 @@
     "babel-preset-stage-0": "^6.24.1",
     "clean-webpack-plugin": "^0.1.17",
     "css-loader": "^0.28.7",
+    "eslint": "^5.11.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.12.2",
     "extract-text-webpack-plugin": "^3.0.2",
     "file-loader": "^1.1.5",
     "html-webpack-plugin": "^2.30.1",
